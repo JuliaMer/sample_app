@@ -20,6 +20,9 @@ group :development do
   gem 'listen',                '3.1.5'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
+  gem 'guard-livereload', :require => false
+  gem 'rack-livereload'
+
 end
 
 group :test do
